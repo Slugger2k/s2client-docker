@@ -3,7 +3,7 @@
 # Common variables used by scripts for building and controlling
 # containers
 #
-GAME_VERSION=3.16.1
+GAME_VERSION=4.10
 
 #
 # Common command replacements

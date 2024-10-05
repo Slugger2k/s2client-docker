@@ -11,9 +11,9 @@ if [ ! -d ${GAME_VERSION}/StarCraftII ]; then
     $UNZIP_CMD SC2.${GAME_VERSION}.zip -d ${GAME_VERSION}
 fi
 
-MAP_DIRECTORY=${GAME_VERSION}/StarCraftII/Maps
+MAP_DIRECTORY=${GAME_VERSION}/StarCraftII/maps
 
-for i in `ls -1 {Ladder,Melee}*.zip`; do
+for i in `ls -1 {Ladder,Melee,Season}*.zip`; do
     $UNZIP_CMD -n -d $MAP_DIRECTORY $i
 done
 
